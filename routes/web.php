@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//rutas para sector
+Route:: get('/sector', 'SectorController@index')->name('sector.index');
+Route::get('/sector/crear','SectorController@create')->name('sector.create');
+Route::post('/sector', 'SectorController@store')->name('sector.store');
