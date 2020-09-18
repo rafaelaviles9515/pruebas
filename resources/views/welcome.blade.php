@@ -77,6 +77,7 @@
                         @endif
                     @endauth
                     <a href="{{ route('sector.index') }}">Sector</a>
+                    <a href="{{ route('index') }}">Index</a>
                 </div>
             @endif
 
